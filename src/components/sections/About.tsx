@@ -16,7 +16,7 @@ function AvatarFrame() {
       <div className="relative rounded-[2.5rem] bg-gradient-to-br from-brand-200 via-white to-lavender-100 p-3 shadow-[0_24px_60px_-24px_rgba(201,42,128,0.55)] sm:p-4 dark:from-brand-900/70 dark:via-zinc-900 dark:to-lavender-900/70 dark:shadow-[0_24px_60px_-24px_rgba(255,123,208,0.35)]">
         <div className="relative overflow-hidden rounded-[2rem] border-4 border-white bg-white dark:border-zinc-800 dark:bg-zinc-900">
           <img
-            src="/Streamlette_Gamer_en_Neon_Morado.png"
+            src={`${import.meta.env.BASE_URL}Streamlette_Gamer_en_Neon_Morado.png`}
             alt="Avatar ilustrado de Jade Martin estilo gamer"
             loading="lazy"
             decoding="async"
